@@ -8,6 +8,8 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ShopPage } from '../pages/shop/shop';
 import { BuyoutPage } from '../pages/buyout/buyout';
+import { UsersPage } from '../pages/users/users';
+import { UserPage } from '../pages/users/user/user';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { BuyoutPage } from '../pages/buyout/buyout';
     MyApp,
     HomePage,
     ShopPage,
-    BuyoutPage
+    BuyoutPage,
+    UsersPage,
+    UserPage
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,9 @@ import { BuyoutPage } from '../pages/buyout/buyout';
     MyApp,
     HomePage,
     ShopPage,
-    BuyoutPage
+    BuyoutPage,
+    UsersPage,
+    UserPage
   ],
   providers: [
     StatusBar,

@@ -12,7 +12,6 @@ export class BuyoutPage implements OnInit {
 
   ngOnInit(){
     this.product = this.navParams.data;
-    console.log(this.product);
   }
 
   backToHome(){
